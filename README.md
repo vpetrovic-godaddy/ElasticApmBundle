@@ -1,5 +1,10 @@
 # ElasticApmBundle
 
+* This is a **downgraded symfony version** of the original bundle made for symfony ^4.0|^5.0
+* Symfony version for this one is ~2.6|~3.0, a version that the original bundle doesn't support.
+* It requires PHP version >= 7.1
+
+## Original bundle info:
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
 [![Build Status][ico-travis]][link-travis]
@@ -10,13 +15,7 @@
 ElasticApmBundle is a symfony bundle that allows you to track your symfony application's performance by sending transactions and metrics to elastic apm server instance.
 
 ## Installation
-```shell
-$ composer require spacespell/elastic-apm-bundle
-```
-
-* If you are using Symfony Flex then after composer install the bundle will be enabled automatically in your `config/bundles.php`, otherwise you should manually enable this bundle.
-
-* Create configuration file `elastic_apm.yaml` in your `config/packages/`.
+* Add configuration to main config file
 
 ```yaml
 elastic_apm:
