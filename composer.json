@@ -3,7 +3,14 @@
     "description": "Elastic APM Bundle",
     "type": "symfony-bundle",
     "homepage": "https://github.com/vpetrovic-godaddy/ElasticApmBundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vpetrovic-godaddy/ElasticApmBundle"
+        }
+    ],
     "require": {
+        "spacespell/elastic-apm-bundle": "dev-master",
         "symfony/framework-bundle": "~2.6|~3.0",
         "philkra/elastic-apm-php-agent": "~7.0",
         "psr/log": "~1.0"
