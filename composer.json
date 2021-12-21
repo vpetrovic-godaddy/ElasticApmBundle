@@ -2,7 +2,7 @@
     "name": "spacespell/elastic-apm-bundle",
     "description": "Elastic APM Bundle",
     "type": "symfony-bundle",
-    "homepage": "https://github.com/vpetrovic-godaddy/ElasticApmBundle",
+    "homepage": "https://github.com/spacespell/ElasticApmBundle",
     "repositories": [
         {
             "type": "vcs",
