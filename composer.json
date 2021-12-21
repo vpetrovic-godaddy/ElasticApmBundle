@@ -1,10 +1,10 @@
 {
-    "name": "spacespell/elastic-apm-bundle",
+    "name": "progvex/elastic-apm-bundle",
     "description": "Elastic APM Bundle",
     "type": "symfony-bundle",
-    "homepage": "https://github.com/spacespell/ElasticApmBundle",
+    "homepage": "https://github.com/vpetrovic-godaddy/ElasticApmBundle",
     "require": {
-        "symfony/framework-bundle": "^4.0|^5.0",
+        "symfony/framework-bundle": "~2.6|~3.0",
         "philkra/elastic-apm-php-agent": "~7.0",
         "psr/log": "~1.0"
     },
@@ -16,6 +16,10 @@
         {
             "name": "Phoenix Gao",
             "email": "phoenix@spacespell.com"
+        },
+        {
+            "name": "Veljko Petrovic",
+            "email": "vpetrovic@godaddy.com"
         }
     ],
     "autoload": {
