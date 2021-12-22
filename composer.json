@@ -12,7 +12,7 @@
     "require": {
         "spacespell/elastic-apm-bundle": "dev-master",
         "symfony/framework-bundle": "~2.6|~3.0",
-        "philkra/elastic-apm-php-agent": "~7.0",
+        "philkra/elastic-apm-php-agent": "dev-master#84a5f6c",
         "psr/log": "~1.0"
     },
     "require-dev": {
