@@ -6,11 +6,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/vpetrovic-godaddy/ElasticApmBundle"
+            "url": "https://github.com/vpetrovic-godaddy/ElasticApmBundle.git"
         }
     ],
     "require": {
-        "spacespell/elastic-apm-bundle": "dev-master",
         "symfony/framework-bundle": "~2.6|~3.0",
         "philkra/elastic-apm-php-agent": "dev-master",
         "psr/log": "~1.0"
