@@ -11,7 +11,7 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.6|~3.0",
-        "philkra/elastic-apm-php-agent": "dev-master",
+        "philkra/elastic-apm-php-agent": "dev-production",
         "psr/log": "~1.0"
     },
     "require-dev": {
