@@ -28,7 +28,7 @@ class TerminateListener implements LoggerAwareInterface, AgentAwareInterface, Us
 
     public function onKernelTerminate(PostResponseEvent $event)
     {
-        if (!$this->enabled || !$event->isMasterRequest()) {
+        if (!$this->enabled) {
             return;
         }
 
